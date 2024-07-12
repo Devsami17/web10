@@ -1,0 +1,301 @@
+.header-1{
+    height: 70px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+header{
+height: 70px;
+width: 100%;
+box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+position: fixed;
+top: 0;
+left: 0;
+background-color: #fff;
+z-index: 1000;
+}
+body
+{
+    font-family: "Montserrat" !important;
+scroll-behavior: smooth;
+
+}
+.header-1 a{
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 500  !important;
+
+}
+button{
+    height: 35px;
+    font-weight: 700;
+    font-size: 12px !important;
+    border: none;
+    text-transform: uppercase !important;
+    outline: none;
+    color: #fff;
+    background-color: #C70039;
+    padding: 0px 30px ;
+    border-radius: 7px !important;
+}
+.f-btn{
+    background-color: #fff !important;
+    color: #C70039 !important;
+    border: 1px solid #C70039 !important;
+}
+.section-1 {
+    background-color: #C70039;
+    margin-top: 70px;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+.section-1 img{
+position: relative;
+top: 100%;
+transition: all 0.4s ease-in-out;
+animation: example 5s infinite;
+}
+@keyframes example{
+    0%{
+        top: 100%;
+    }
+    50%{
+        top: 0%;
+    }
+    100%{
+        top: 100%;
+    }
+}
+.section-1 .container div:nth-child(1){
+    padding-top: 30px;
+}
+h1{
+font-weight: 700 !important;
+font-size: 40px !important;
+
+}
+p{
+    font-size: 14px !important;
+    font-weight: 500 !important;
+
+    color: #666;
+    line-height: 25px;
+}
+section{
+    padding-top:50px ;
+    padding-bottom: 50px;
+}
+h6{
+    color: #C70039 !important; 
+    font-size: 15px !important;
+    text-transform: uppercase !important;
+
+    opacity: .8;
+}
+h2{
+
+    font-size: 35px !important;
+    font-weight: 700 !important;
+}
+section img{
+    border-radius: 7px;
+    object-fit: cover;
+}
+.boxes{
+    padding: 30px;
+    width: 30%;
+    border-radius: 15px;
+    background-color: #C70039;
+color:#fff;
+text-align: center;
+}
+.boxes h5{
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    text-transform: uppercase;
+
+}
+.boxes p{
+    color: #fff;
+}
+.boxes button{
+    width: 100%;
+    background-color: #fff;
+    color: #C70039;
+}
+.boxes i{
+    font-size: 30px ;
+    margin-bottom: 15px;
+}
+.accordion-item{
+    border: none !important;
+    margin-top: 20px;
+}
+label{
+    font-size: 20px !important;
+    font-weight: 600;
+    font-family: "Rajdhani";
+}
+input{
+    margin-top: 5px;
+    height: 38px;
+    width: 50%;
+    border:1px solid #e3e9ed !important;
+    outline: none !important;
+    padding-left: 10px;
+    background:#f8fafb;
+    font-family: "Rajdhani" !important;
+    font-weight: 600;
+    border-radius:5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 2px;
+}
+span{
+    color: #C70039;
+    font-size: 24px;
+    font-weight: 800;
+    font-family: "Rajdhani";
+}
+.section-8 input{
+    width: 100%;
+}
+@media only screen and (min-width:300px) and (max-width:1200px)
+{
+    .header-1{
+        display: none !important;
+    }
+    .res-header{
+        display: flex !important;
+        justify-content: space-between;
+        align-items: center;
+    height: 70px;
+    padding: 0px 10px;
+    }
+.res-header i{
+    color: #C70039;
+    font-size: 35px;
+}
+.section-1 div:nth-child(2){
+    display: flex;
+    justify-content: center;
+   
+}  
+.section-1{
+    padding-bottom: 0px !important;
+}  
+.section-1 img{
+    animation: none !important;
+    top: 0%;
+    
+    margin-bottom: 0px !important;
+}
+section img{
+    margin-bottom: 20px;
+
+}
+h2{
+    font-size: 25px !important;
+}
+.boxes i{
+    font-size: 25px !important;
+}
+.boxes h5{
+    font-size: 16px !important;
+}
+.boxes p{
+    font-size: 12px !important;
+    line-height: 20px !important;
+}
+.boxes{
+    width: 100% !important;
+}
+section{
+    padding-top: 30px !important;
+    padding-bottom: 20px !important;
+}
+h1{
+    font-size: 38px !important;
+}
+input{
+    width: 100%;
+}
+footer{
+    padding: 40px 0px !important;
+}
+footer .col-lg-3{
+    margin-top: 20px;
+}
+}
+.res-header{
+    display: none;
+}
+footer{
+    background-color: #0d1820 !important;
+    padding: 60px 0px;
+    color: #fff;
+}
+footer p{
+    color: #fff;
+  
+}
+footer h4{
+    font-weight: 700;
+    font-family: "Montserrat";
+}
+footer li{
+    font-family: "Rajdhani";
+    font-weight: 600;
+    position: relative;
+    list-style: none;
+    margin-top: 15px;
+
+}
+footer li:before{
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: linear-gradient(270deg, #00c194, #00a47e);
+    border-radius: 50px;
+    left: -20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.offcanvas-body li{
+    list-style: none;
+   
+    padding: 12px;
+    cursor: pointer;
+    border-bottom: thin solid #ccccd2;
+    font-size: 14px;
+    color: rgb(46, 46, 50);
+    font-weight: 600;
+    position: relative;
+}
+.offcanvas-body li::after{
+    background-repeat: no-repeat;
+    content: "";
+    display: inline-block;
+    height: 1rem;
+    position: absolute;
+    width: 1rem;
+    bottom: .0625rem;
+    background-image: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20fill%3D%22%236e6e6e%22%20data-name%3D%22Outline%22%20viewBox%3D%220%200%2020%2020%22%3E%3Cpath%20d%3D%22M6.36%2015.47L11.83%2010%206.36%204.53l1.06-1.06%206%206a.75.75%200%200%201%200%201.06l-6%206z%22%2F%3E%3C%2Fsvg%3E');
+    block-size: 1.25rem;
+    display: inline-block;
+    inline-size: 1.25rem;
+    inset: 50% 1rem auto auto;
+    position: absolute;
+    transform: translateY(-50%);
+    visibility: visible;
+}
+.offcanvas-body ul{
+    padding: 0px;
+}
+.offcanvas-body button{
+    width: 100%;
+    margin-top: 20px;
+}
